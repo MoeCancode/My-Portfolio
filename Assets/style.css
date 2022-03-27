@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+#navbutton-container {
+    padding-top: 5px;
+    margin-right: 10px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.navbuttons {
+    list-style-type: none;
+    float: right;
+}
+
+.navbuttons li {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 65px;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
