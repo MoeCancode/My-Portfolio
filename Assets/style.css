@@ -288,3 +288,9 @@ a {
 #email:hover {
     transform: scale(1.5);
 }
+
+footer {
+    color: rgb(196, 155, 21);
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+}
