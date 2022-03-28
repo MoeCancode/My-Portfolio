@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(27, 27, 27);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
 }
@@ -63,7 +63,8 @@ a {
 #headings {
     align-items: center;
     position: relative;
-    left: 95px;
+    left: 115px;
+    bottom: 100px;
 }
 
 #headings p {
@@ -94,7 +95,7 @@ a {
     padding-top: 40px;
     padding-bottom: 110px;
     width: 100%;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 #About-me h1 {
@@ -173,14 +174,15 @@ a {
 .project-picture a {
     position: relative;
     top: 20px;
+    transition: all 0.4s ease-in-out;
 }
 
 .box:hover {
-    box-shadow: 0 15px 15px rgb(182, 181, 181);
+    box-shadow: 0 15px 15px rgb(77, 76, 76);
   }
 
-.project-picture a :hover {
-    box-shadow: 0 15px 15px rgb(182, 181, 181);
+.project-picture a:hover {
+    box-shadow: 0 15px 15px rgb(77, 76, 76);
 }
 
   #two, #three, #one {
