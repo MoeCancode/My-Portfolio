@@ -8,6 +8,7 @@ header {
     padding: 10px;
     background-color: black;
     color: white;
+    border-radius: 20px;
 }
 
 #navbutton-container {
@@ -42,11 +43,14 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding-top: 70px;
+    margin-bottom: 35px;
+    border-radius: 20px;
 }
 
 #my-picture {
     height: auto;
     width: 100%;
+    filter: brightness(65%) grayscale(30%);
 }
 
 #my-picture, #headings {
@@ -59,7 +63,7 @@ a {
 #headings {
     align-items: center;
     position: relative;
-    left: 75px;
+    left: 95px;
 }
 
 #headings p {
@@ -81,4 +85,29 @@ a {
     flex-basis: 50%;
     position: relative;
     left: 150px;
+}
+#About-me {
+    background-color: black;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 110px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+#About-me h1 {
+    color:rgb(196, 155, 21);;
+}
+#About-me a {
+    padding: 7px 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(196, 155, 21);
+    color: black;
+    border-radius: 5px;
+    position: relative;
+    top: 45px;
 }
