@@ -203,6 +203,11 @@ a {
     margin-top: 40px;
 }
 
+#contact-section h1 {
+    color:rgb(196, 155, 21) ;
+    padding-bottom: 33px;
+}
+
 .list-as-a-whole {
     list-style-type: none;
 }
@@ -271,4 +276,15 @@ a {
 
 #fiverr:hover {
     box-shadow: 0 10px 10px rgb(1, 163, 1);
+}
+
+#email {
+    padding: 0px;
+    margin-left: 350px;
+    margin-right: 350px;
+    transition: transform 0.5s ease;
+}
+
+#email:hover {
+    transform: scale(1.5);
 }
