@@ -39,10 +39,14 @@ a {
 #Hero-section {
     background-color: black;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 70px;
 }
 
 #my-picture {
-    float: right;
+    height: auto;
+    width: 100%;
 }
 
 #my-picture, #headings {
@@ -50,15 +54,31 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: black;
-} 
+}
 
 #headings {
+    align-items: center;
+    position: relative;
+    left: 75px;
+}
+
+#headings p {
     font-size: x-large;
     font-style: italic;
     float: center;
+    line-height: 200%;
 }
 
 #headings span {
     font-size: xx-large;
     font-style: normal;
+    float: center;
+    line-height: 70%;
+    color: rgb(196, 155, 21);
+}
+
+#profile-div {
+    flex-basis: 50%;
+    position: relative;
+    left: 150px;
 }
