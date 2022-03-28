@@ -8,7 +8,11 @@ header {
     padding: 10px;
     background-color: black;
     color: white;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#logo {
+    border-radius: 10px;
 }
 
 #navbutton-container {
@@ -44,7 +48,7 @@ a {
     flex-wrap: wrap;
     padding-top: 70px;
     margin-bottom: 35px;
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 #my-picture {
@@ -117,7 +121,7 @@ a {
     background-color: black;
     color: white;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
     margin-top: 40px;
     padding-bottom: 20px;
     font-size: x-large;
@@ -134,7 +138,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     background-color: black;
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
     width:100%;
     padding-top: 35px;
     padding-bottom: 70px;
@@ -187,4 +191,84 @@ a {
 
   #two, #three, #one {
     height: 362px;
+}
+
+#contact-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 40px;
+}
+
+.list-as-a-whole {
+    list-style-type: none;
+}
+
+.list-as-a-whole  li{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: large;
+    text-align: center;
+}
+
+.list-as-a-whole li a {
+    font-size: xx-large;
+    border: double 4px rgb(196, 155, 21) ;
+}
+
+.list-as-a-whole li p {
+    font-size: large;
+    position: relative;
+    top: 47px;
+    right: 50px;
+}
+
+#linkedin {
+    color: rgb(2, 132, 219);
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 4px;
+    transition: all 0.4s ease-in-out;
+}
+
+#github {
+    color: rgb(255, 160, 176);
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    padding-top: 4px;
+    transition: all 0.4s ease-in-out;
+}
+
+#fiverr {
+    color: rgb(1, 163, 1);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    transition: all 0.4s ease-in-out;
+}
+
+#link-one {
+    position: relative;
+    right: 59px;
+}
+
+#link-two {
+    position: relative;
+    right: 59px;
+}
+
+#linkedin:hover {
+    box-shadow: 0 10px 10px rgb(2, 132, 219);
+}
+
+#github:hover {
+    box-shadow: 0 10px 10px rgb(255, 160, 176);
+}
+
+#fiverr:hover {
+    box-shadow: 0 10px 10px rgb(1, 163, 1);
 }
