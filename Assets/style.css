@@ -111,3 +111,78 @@ a {
     position: relative;
     top: 45px;
 }
+
+#work-heading {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    padding-top: 30px;
+}
+
+#work-heading h1 {
+    color: rgb(196, 155, 21);
+}
+
+#flex-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    border-radius: 20px;
+    width:100%;
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+
+.titles {
+    text-align: center;
+    font-size: 26px;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(196, 155, 21);
+    background-color: white;
+    border-radius: 15px;
+    margin-top: -34px;
+    z-index: 10;
+    padding: 3px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+
+.box {
+    position: relative;
+    padding: 20px;
+    border: 5px;
+    border-color: rgb(196, 155, 21);
+    border-style: solid;
+    margin: 17px;
+    flex-basis:  350px; 
+    transition: all 0.4s ease-in-out;
+}
+
+.description {
+    color: white;
+    text-align: center;
+}
+
+.project-picture a {
+    position: relative;
+    top: 20px;
+}
+
+.box:hover {
+    box-shadow: 0 15px 15px rgb(182, 181, 181);
+  }
+
+.project-picture a :hover {
+    box-shadow: 0 15px 15px rgb(182, 181, 181);
+}
+
+  #two, #three, #one {
+    height: 362px;
+}
