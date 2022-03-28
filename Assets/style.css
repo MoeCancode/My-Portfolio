@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
 }
 
@@ -34,4 +34,31 @@ header {
 a {
     text-decoration: none;
     color: white;
+}
+
+#Hero-section {
+    background-color: black;
+    color: white;
+}
+
+#my-picture {
+    float: right;
+}
+
+#my-picture, #headings {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+} 
+
+#headings {
+    font-size: x-large;
+    font-style: italic;
+    float: center;
+}
+
+#headings span {
+    font-size: xx-large;
+    font-style: normal;
 }
