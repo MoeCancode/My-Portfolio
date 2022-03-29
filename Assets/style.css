@@ -22,6 +22,14 @@ header {
     border-radius: 20px 20px 0px 0px;
 }
 
+header img {
+    transition: all 0.4s ease-in-out;
+}
+
+header img:hover {
+    box-shadow: 0 7px 7px var(--color1);
+}
+
 #logo {
     border-radius: 10px;
 }
@@ -136,7 +144,7 @@ a {
 }
 
 #About-me p:hover {
-    text-shadow: 0 5px 5px var(--color1);
+    text-shadow: 0 7px 7px var(--color1);
 }
 
 #About-me h1 {
