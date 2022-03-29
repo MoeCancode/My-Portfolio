@@ -215,6 +215,10 @@ a {
     transition: all 0.4s ease-in-out;
 }
 
+#one {
+    flex-basis:  840px;
+}
+
 .description {
     color: var(--color2);
     text-align: center;
