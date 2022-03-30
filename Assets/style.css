@@ -32,14 +32,16 @@ header img:hover {
 
 #logo {
     border-radius: 10px;
+    max-width: 20%;
 }
 
 #navbutton-container {
     padding-top: 5px;
-    margin-right: 10px;
+    margin-right: 1em;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    max-width: 76%;
 }
 
 .navbuttons {
@@ -51,8 +53,11 @@ header img:hover {
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-right: 65px;
     font-size: large;
+}
+
+.spacing {
+    margin-right: 2.0em;
 }
 
 a {
@@ -97,10 +102,9 @@ a {
 }
 
 #headings {
-    align-items: center;
-    position: relative;
-    left: 115px;
-    bottom: 100px;
+    margin-left: 1em;
+    max-width: 85%;
+    text-align: center;
 }
 
 #headings p {
@@ -351,6 +355,13 @@ footer {
     }
     #email:hover {
         transform: scale(1.25);
+    }
+    #headings {
+    text-align: left;
+    align-items: center;
+    position: relative;
+    left: 115px;
+    bottom: 100px;
     }
 
 }
