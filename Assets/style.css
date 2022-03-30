@@ -105,6 +105,8 @@ a {
     margin-left: 1em;
     max-width: 85%;
     text-align: center;
+    position: relative;
+    left: 1em;
 }
 
 #headings p {
@@ -128,9 +130,9 @@ a {
 }
 
 #profile-div {
-    flex-basis: 50%;
+    float: center;
     position: relative;
-    left: 150px;
+    left: 1em;
 }
 #About-me {
     background-color: var(--color4);
@@ -362,6 +364,11 @@ footer {
     position: relative;
     left: 115px;
     bottom: 100px;
+    }
+    #profile-div {
+        flex-basis: 50%;
+        position: relative;
+        left: 150px;
     }
 
 }
