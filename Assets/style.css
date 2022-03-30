@@ -215,10 +215,6 @@ a {
     transition: all 0.4s ease-in-out;
 }
 
-#one {
-    flex-basis:  840px;
-}
-
 .description {
     color: var(--color2);
     text-align: center;
@@ -342,4 +338,13 @@ footer {
     color: var(--color1);
     text-align: center;
     padding: 40px 0px 10px 0px;
+}
+
+@media all and (min-width : 600px) {
+    #one {
+        flex-basis: 840px;
+    }
+        #large-pic img {
+        width: 750px;
+    }
 }
