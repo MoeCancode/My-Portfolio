@@ -329,21 +329,29 @@ footer {
     padding: 40px 0px 10px 0px;
 }
 
-@media all and (min-width : 600px) {
+#email-div {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media all and (min-width : 900px) {
     #one {
         flex-basis: 840px;
     }
     #large-pic img {
         width: 750px;
     }
+    #email-div {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
     #email {
         padding: 0px;
-        margin-left: 350px;
-        margin-right: 350px;
+        border: solid 2px pink;
         transition: transform 0.5s ease;
     }
     #email:hover {
-        transform: scale(1.5);
+        transform: scale(1.25);
     }
 
 }
