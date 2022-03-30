@@ -85,7 +85,9 @@ a {
 
 #my-picture {
     height: auto;
-    width: 100%;
+    max-width: 80%;
+    position: relative;
+    left: 1.85em;
     filter: brightness(65%) grayscale(30%);
     transition: transform 0.8s ease-in-out;
 }
@@ -379,6 +381,9 @@ footer {
         flex-basis: 50%;
         position: relative;
         left: 150px;
+    }
+    #my-picture {
+        max-width: 100%;
     }
 
 }
