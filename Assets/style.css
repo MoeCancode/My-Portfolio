@@ -347,7 +347,6 @@ footer {
     }
     #email {
         padding: 0px;
-        border: solid 2px pink;
         transition: transform 0.5s ease;
     }
     #email:hover {
