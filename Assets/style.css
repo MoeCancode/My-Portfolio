@@ -323,17 +323,6 @@ a {
     box-shadow: 0 10px 10px rgb(1, 163, 1);
 }
 
-#email {
-    padding: 0px;
-    margin-left: 350px;
-    margin-right: 350px;
-    transition: transform 0.5s ease;
-}
-
-#email:hover {
-    transform: scale(1.5);
-}
-
 footer {
     color: var(--color1);
     text-align: center;
@@ -344,7 +333,17 @@ footer {
     #one {
         flex-basis: 840px;
     }
-        #large-pic img {
+    #large-pic img {
         width: 750px;
     }
+    #email {
+        padding: 0px;
+        margin-left: 350px;
+        margin-right: 350px;
+        transition: transform 0.5s ease;
+    }
+    #email:hover {
+        transform: scale(1.5);
+    }
+
 }
