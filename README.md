@@ -8,6 +8,12 @@ The layout is simple to make navigation easy for all users and has been styled w
 
 <br>
 
+#Deployed Link
+
+https://moecancode.github.io/My-Portfolio/
+
+<br>
+
 # Webpage layout
 
 This is the what the layout of the website looks like on a Desktop screen 
