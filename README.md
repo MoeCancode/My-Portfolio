@@ -8,7 +8,7 @@ The layout is simple to make navigation easy for all users and has been styled w
 
 <br>
 
-#Deployed Link
+# Deployed Link
 
 https://moecancode.github.io/My-Portfolio/
 
